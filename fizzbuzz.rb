@@ -1,7 +1,7 @@
 require_relative './spec/fizzbuzz_spec.rb'
 def fizzbuzz(int)
   if (int % 3 == 0) && (int % 5 == 0)
-    "Fizzbuzz"
+    "FizzBuzz"
   elsif int % 5 == 0 
     "Buzz"
   elsif int % 3 == 0
